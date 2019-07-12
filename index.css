@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1920px;
+	height: 1080px;
+}
+header{
+	height: 190px;
+	font-size: 40px;
+	font-weight: 600;
+	color: #232323;
+	position: relative;
+}
+header p{
+	position: absolute;
+	top: 102px;
+	left: 410px;
+}
+.main{
+	height: 700px;
+	background: url('login_bg@2x.png') no-repeat;
+	background-size: 1920px 700px;
+	position: relative;
+}
+.main .login{
+	width: 390px;
+	height: 440px;
+	background: #fff;
+	position: absolute;
+	top: 130px;
+	left: 1120px;
+	text-align: center;
+}
+.main .login .title{
+	font-size: 20px;
+	font-weight: 600;
+	color: #4A4A4A;
+	margin-top: 37px;
+	margin-bottom: 47px;
+}
+.main .login .passwd,
+.main .login .phone{
+	width: 340px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	border: 1px solid #0C66D7;
+	background: url('login_icon_iphone_selected@2x.png') no-repeat 14px 16px;
+	background-size: 19px 19px;
+}
+.main .login .phone{
+	margin-bottom: 20px;
+}
+.main .login .passwd span,
+.main .login .phone span{
+	margin-left: -45px;
+}
+.main .login .passwd{
+	margin-bottom: 50px;
+	background: url('login_icon_password_selected@2x.png') no-repeat 14px 16px;
+	background-size: 19px 19px;
+}
+.main .login .passwd input,
+.main .login .phone input{
+	border: none;
+	outline: none;
+}
+.main .login button{
+	width: 340px;
+	height: 50px;
+	background: #0C66D7;
+	color: #fff;
+	font-size: 20px;
+}
+.main .login button:hover{
+	background: #6495ED;
+	cursor: pointer;
+}
